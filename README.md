@@ -3,13 +3,13 @@
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Now-blue?style=for-the-badge&logo=github)](https://srajan0149.github.io/MazeRL/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-MazeRL is an elegant, interactive web-based visualization tool that brings **Q-Learning** to life in a grid-based maze environment. Design custom mazes, train an RL agent, fine-tune hyperparameters, and witness optimal paths emerge—all seamlessly within your browser.
+MazeRL is an elegant, interactive web-based visualization tool that brings **Q-Learning** to life in a grid-based maze environment. Design custom mazes, train an RL agent, fine-tune hyperparameters, and witness optimal paths emerge - all seamlessly within your browser.
 
 
 ---
 ## 🌐 Live Demo
 Experience the fully interactive MazeRL simulator directly in your browser.  
-👉 **Live here:** https://srajan0149.github.io/MazeRL/  
+👉 **Live here:** https://srajan0149.github.io/MazeRL/
 No installation required — pure client-side execution.
 
 ![alt text](demo.png)
@@ -143,8 +143,8 @@ The agent updates its knowledge using the Bellman equation derivative:
 
 ---
 
-## 📁 Project Structure
-The project is organized for simplicity and clarity: ![alt text](equ.png)
+- **Update Rule:**
+  - `Q(s,a) = Q(s,a) + α * (reward + γ * max(Q(s', all_actions)) - Q(s,a))`
 
 ```text
 MazeRL/
