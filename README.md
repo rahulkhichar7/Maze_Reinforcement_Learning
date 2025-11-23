@@ -132,9 +132,8 @@ Each grid cell $(r, c)$ represents a unique state $s$.
 | **Reach Goal** | +10 |
 
 ### Q-Update Equation
-
 The agent updates its knowledge using the Bellman equation derivative:
-
+  - `Q(s,a) = Q(s,a) + α * (reward + γ * max(Q(s', all_actions)) - Q(s,a))`
 
 ### Policy
 **Epsilon-Greedy Exploration**:
@@ -143,8 +142,7 @@ The agent updates its knowledge using the Bellman equation derivative:
 
 ---
 
-- **Update Rule:**
-  - `Q(s,a) = Q(s,a) + α * (reward + γ * max(Q(s', all_actions)) - Q(s,a))`
+
 
 ```text
 MazeRL/
