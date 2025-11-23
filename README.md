@@ -143,7 +143,7 @@ The agent updates its knowledge using the Bellman equation derivative:
 ---
 
 All the team members have Equally contributed
-Siddhartha Nayak, Kshitij Kasodkar, Srajan Deharia, Rahul Khichar
+Siddhartha Nayak, Kshitij Kasodkar, Srajan Deharia, Rahul Khichar, Raj Kumar Gupta
 
 
 ```text
