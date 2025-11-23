@@ -10,7 +10,7 @@ MazeRL is an elegant, interactive web-based visualization tool that brings **Q-L
 ## 🌐 Live Demo
 Experience the fully interactive MazeRL simulator directly in your browser.  
 👉 **Live here:** https://srajan0149.github.io/MazeRL/
-No installation required — pure client-side execution.
+No installation required - pure client-side execution.
 
 ![alt text](demo.png)
 
