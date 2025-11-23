@@ -144,7 +144,7 @@ The agent updates its knowledge using the Bellman equation derivative:
 ---
 
 ## 📁 Project Structure
-The project is organized for simplicity and clarity: ![alt text](image.png)
+The project is organized for simplicity and clarity: ![alt text](equ.png)
 
 ```text
 MazeRL/
